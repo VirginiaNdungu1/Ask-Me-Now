@@ -1,49 +1,72 @@
-  .jumbotron h1 {
-    text-align: center;
-    color: crimson;
-  }
+      .jumbotron h1 {
+        text-align: center;
+        color: crimson;
+      }
 
-  .flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 90%;
-    height: 100%;
-    margin-left: 0%;
-    margin-bottom: 5%;
-    box-shadow: 1em 1em 1em 1em #ddd;
-    /*background-color: #EBEDEF;*/
-  }
+      .container {
+        margin-bottom: 3%;
+      }
 
-  .flex-item {
-    /*background-color: cornflowerblue;*/
-    width: 100%;
-    padding: 10px;
-    height: 100%;
-    margin-left: 5%;
-  }
+      .container .queries {
+        float: left;
+        /*margin-right: 20%;*/
+      }
 
-  .questionDetails {
-    padding-bottom: -5px;
-  }
+      .container .askQuestionBtn {
+        margin-left: 80%;
+      }
 
-  .flex-item .author {
-    font-size: 15px;
-    float: left;
-    margin-right: 4%;
-  }
+      .container .askQuestionBtn button {
+        color: #eb5b30;
+        margin-top: 5%;
+      }
 
-  .flex-item .topic {
-    font-size: 15px;
-    /*float: right;*/
-    /*margin-right: 50%;*/
-    /*padding-top: 5px;*/
-  }
+      .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        width: 104%;
+        height: 100%;
+        margin-left: -4%;
+        margin-bottom: 5%;
+        margin-right: 100%;
+        box-shadow: 1em 1em 1em 1em #ddd;
+        /*background-color: #EBEDEF;*/
+      }
 
-  .flex-item .title {
-    font-size: 17px;
-    padding-top: -5%;
-  }
+      .flex-item {
+        /*background-color: cornflowerblue;*/
+        width: 100%;
+        padding: 10px;
+        height: 100%;
+        margin-left: 5%;
+      }
 
-  .flex-item .additionalNotes {
-    font-size: 15px;
-  }
+      .questionDetails {
+        padding-bottom: -5px;
+      }
+
+      .flex-item .author {
+        font-size: 15px;
+        float: left;
+        margin-right: 4%;
+      }
+
+      .flex-item .topic {
+        font-size: 15px;
+        /*float: right;*/
+        /*margin-right: 50%;*/
+        /*padding-top: 5px;*/
+      }
+
+      .flex-item .title {
+        font-size: 17px;
+        padding-top: -5%;
+      }
+
+      .flex-item .additionalNotes {
+        font-size: 15px;
+      }
+
+      {
+        font-size: 15px;
+      }
