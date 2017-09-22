@@ -4,16 +4,16 @@
 <div class= "container">
   <header class= "jumbotron">
     <h1>Ask Me Now</h1>
-
-    <div class="container">
-    <div class="queries">
-    {{#link-to 'index'}}Home{{/link-to}}
-    </div>
-    <div class="askQuestionBtn">
-    {{#link-to 'ask-question'}}<button class="btn btn-lg">Ask Question</button>{{/link-to}}
-    </div>
-    </div>
+    {{#link-to 'index'}}<button class="btn btn-md">Home</button>{{/link-to}}
   </header>
+  <div class="container">
+  <div class="queries">
+  <h3>Find solutions to your queries</h3>
+  </div>
+  <div class="askQuestionBtn">
+  {{#link-to 'ask-question'}}<button class="btn btn-lg">Ask Question</button>{{/link-to}}
+  </div>
+  </div>
   {{outlet}}
   <hr>
   <footer>
