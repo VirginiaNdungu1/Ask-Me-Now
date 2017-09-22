@@ -4,8 +4,17 @@
 <div class= "container">
   <header class= "jumbotron">
     <h1>Ask Me Now</h1>
+
+    <div class="container">
+    <div class="queries">
+    {{#link-to 'index'}}Home{{/link-to}}
+    </div>
+    <div class="askQuestionBtn">
+    {{#link-to 'ask-question'}}<button class="btn btn-lg">Ask Question</button>{{/link-to}}
+    </div>
+    </div>
   </header>
-    {{outlet}}
+  {{outlet}}
   <hr>
   <footer>
     <h3>Footer Here</h3>
