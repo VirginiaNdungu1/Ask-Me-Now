@@ -1,4 +1,44 @@
-.jumbotron h1 {
-  text-align: center;
-  color: crimson;
-}
+  .jumbotron h1 {
+    text-align: center;
+    color: crimson;
+  }
+
+  .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    box-shadow: 1em 1em 1em 1em #ddd;
+    /*background-color: #EBEDEF;*/
+  }
+
+  .flex-item {
+    /*background-color: cornflowerblue;*/
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    margin-left: 5%;
+  }
+
+  .flex-item .author {
+    font-size: 15px;
+    float: left;
+    margin-right: 4%;
+  }
+
+  .flex-item .topic {
+    font-size: 15px;
+    /*float: right;*/
+    /*margin-right: 50%;*/
+    /*padding-top: 5px;*/
+  }
+
+  .flex-item .title {
+    font-size: 17px;
+  }
+
+  .flex-item .additionalNotes {
+    font-size: 15px;
+  }

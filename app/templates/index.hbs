@@ -1,10 +1,13 @@
-<h1>Ask Me Now</h1> Find solutions to your queries
+<h1>Ask Me Now</h1>
 
+<h2> Find solutions to your queries</h2>
 <ul>
+  {{!--loop through each rental in model--}}
+  {{!--rental represents model object --}}
   {{#each model as |question|}}
-    <h2>{{question.author}}</h2>
-    <h3>{{question.topic}}</h3>
-    <li>{{question.title}}</li>
-    <p>{{question.additionalNotes}}</p>
+  {{!--render our new component rental-tile--}}
+  {{!--rental on left is a variable of the component--}}
+  {{!--rental on right refers to the model object in the current iteration of loop--}}
+    {{question-listing question=question}}
   {{/each}}
 </ul>
