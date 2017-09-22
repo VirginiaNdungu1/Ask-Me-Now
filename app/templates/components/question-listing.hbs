@@ -8,8 +8,12 @@
         <p>{{question.topic}}</p>
       </div>
     </div>
-
     <p class="title">{{question.title}}</p>
-    <p class="additionalNotes">{{question.additionalNotes}}</p>
-    </div>
+    {{#if isNoteShowing}}
+      <p class="additionalNotes">{{question.additionalNotes}}</p>
+      <button{{action "hideNote"}}>Show Less</button>
+      {{else}}
+      <button{{action "showNote"}}>Show More</button>
+      {{/if}}
+     </div>
 </div>

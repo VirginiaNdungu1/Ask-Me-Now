@@ -22,6 +22,10 @@
     margin-left: 5%;
   }
 
+  .questionDetails {
+    padding-bottom: -5px;
+  }
+
   .flex-item .author {
     font-size: 15px;
     float: left;
@@ -37,6 +41,7 @@
 
   .flex-item .title {
     font-size: 17px;
+    padding-top: -5%;
   }
 
   .flex-item .additionalNotes {
