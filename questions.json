@@ -1,0 +1,20 @@
+{"questions":[{
+  "id": 1,
+  "topic": "Technology",
+  "title": "What does asynchronous loading of data mean?",
+  "author": "Nish Bernard",
+  "additionalNotes": "In relation to controllers in ember"
+}, {
+  "id": 2,
+  "topic": "Technology",
+  "title": "What problem does the concept of routable components solve?",
+  "author": "Nish Bernard",
+  "additionalNotes": "In relation to controllers in ember"
+}, {
+  "id": 3,
+  "topic": "Technology",
+  "title": "What are transpilers? ",
+  "author": "Nish Bernard",
+  "additionalNotes": "Please give examples and their importance"
+}]
+}

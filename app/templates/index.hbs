@@ -1,1 +1,10 @@
-{{outlet}}
+<h1>Ask Me Now</h1> Find solutions to your queries
+
+<ul>
+  {{#each model as |question|}}
+    <h2>{{question.author}}</h2>
+    <h3>{{question.topic}}</h3>
+    <li>{{question.title}}</li>
+    <p>{{question.additionalNotes}}</p>
+  {{/each}}
+</ul>
