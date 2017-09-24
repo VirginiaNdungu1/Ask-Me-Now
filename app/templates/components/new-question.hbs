@@ -17,8 +17,10 @@
     <label for="additionalNotes">Additional Notes</label>
     {{input value=additionalNotes id="additionalNotes" placeholder="Enter Additional Notes Here..." class="form-control"}}
   </div>
-
     <button {{action 'addQuestion'}} type="button" class="btn btn-lg"name="button">Submit</button>
-
 </form>
+{{params.author}}
+{{params.topic}}
+{{params.title}}
+{{params.additionalNotes}}
 </div>
