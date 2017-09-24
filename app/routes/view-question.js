@@ -15,10 +15,8 @@ export default Ember.Route.extend({
           question.set(key, params[key]);
         }
       });
-
       question.save();
-      debugger;
       this.transitionTo('index');
-    }
-  },
+    },
+  }
 });

@@ -6,15 +6,22 @@ export default Ember.Component.extend({
     isEditQuestion() {
       this.set("isEditQuestion", true);
     },
-    update(question) {
+    cancel() {
+      this.set("isEditQuestion", false);
+    },
+    update(question, params) {
       var params = {
         topic: this.get('topic'),
         title: this.get('title'),
         author: this.get('author'),
         additionalNotes: this.get('additionalNotes')
       };
+      this.set('topic', '');
+      this.set('title', '');
+      this.set('author', '');
+      this.set('additionalNotes', '');
       this.set("isEditQuestion", false);
-      this.sendAction("saveQuestions", question, params);
+      this.sendAction("update", question, params);
     }
   }
 });

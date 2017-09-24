@@ -5,5 +5,5 @@ export default DS.Model.extend({
   topic: DS.attr(),
   title: DS.attr(),
   author: DS.attr(),
-  additionalNotes: DS.attr()
+  additionalNotes: DS.attr(),
 });

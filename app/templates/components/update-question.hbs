@@ -19,7 +19,8 @@ Display update question form
     <label for="additionalNotes">Additional Notes</label>
     {{input value=additionalNotes id="additionalNotes" placeholder=question.additionalNotes}}
   </div>
-    <button {{action 'update'}} type="button" class="btn btn-lg"name="button">Save Changes</button>
+ <button {{action 'update' question}} type="button" class="btn btn-lg"name="button">Save Changes</button>
+     <button {{action 'cancel'}} type="button" class="btn btn-lg"name="button">Cancel</button>
 </form>
 </div>
 {{else}}
