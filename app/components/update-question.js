@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     isEditQuestion() {
       this.set("isEditQuestion", true);
     },
-    cancel() {
+    discardChanges() {
       this.set("isEditQuestion", false);
     },
     update(question, params) {
