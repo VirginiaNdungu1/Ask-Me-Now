@@ -1,72 +1,88 @@
-      .jumbotron h1 {
-        text-align: center;
-        color: crimson;
-      }
+                  .jumbotron h1 {
+                    text-align: center;
+                    color: crimson;
+                  }
 
-      .container {
-        margin-bottom: 3%;
-      }
+                  .container {
+                    margin-bottom: 3%;
+                  }
 
-      .container .queries {
-        float: left;
-        /*margin-right: 20%;*/
-      }
+                  .container .queries {
+                    float: left;
+                    /*margin-right: 20%;*/
+                  }
 
-      .container .askQuestionBtn {
-        margin-left: 80%;
-      }
+                  .container .askQuestionBtn {
+                    margin-left: 80%;
+                  }
 
-      .container .askQuestionBtn button {
-        color: #eb5b30;
-        margin-top: 5%;
-      }
+                  .container .askQuestionBtn button {
+                    color: #eb5b30;
+                    margin-top: 5%;
+                  }
 
-      .flex-container {
-        display: -webkit-flex;
-        display: flex;
-        width: 104%;
-        height: 100%;
-        margin-left: -4%;
-        margin-bottom: 5%;
-        margin-right: 100%;
-        box-shadow: 1em 1em 1em 1em #ddd;
-        /*background-color: #EBEDEF;*/
-      }
+                  .flex-container {
+                    display: -webkit-flex;
+                    display: flex;
+                    width: 104%;
+                    height: 100%;
+                    margin-left: -4%;
+                    margin-bottom: 5%;
+                    margin-right: 100%;
+                    box-shadow: 1em 1em 1em 1em #ddd;
+                    /*background-color: #EBEDEF;*/
+                  }
 
-      .flex-item {
-        /*background-color: cornflowerblue;*/
-        width: 100%;
-        padding: 10px;
-        height: 100%;
-        margin-left: 5%;
-      }
+                  .flex-item {
+                    /*background-color: cornflowerblue;*/
+                    width: 100%;
+                    padding: 10px;
+                    height: 100%;
+                    margin-left: 5%;
+                  }
 
-      .questionDetails {
-        padding-bottom: -5px;
-      }
+                  .questionDetails {
+                    padding-bottom: -5px;
+                  }
 
-      .flex-item .author {
-        font-size: 15px;
-        float: left;
-        margin-right: 4%;
-      }
+                  .flex-item .author {
+                    font-size: 15px;
+                    float: left;
+                    margin-right: 4%;
+                  }
 
-      .flex-item .topic {
-        font-size: 15px;
-        /*float: right;*/
-        /*margin-right: 50%;*/
-        /*padding-top: 5px;*/
-      }
+                  .flex-item .topic {
+                    font-size: 15px;
+                    /*float: right;*/
+                    /*margin-right: 50%;*/
+                    /*padding-top: 5px;*/
+                  }
 
-      .flex-item .title {
-        font-size: 17px;
-        padding-top: -5%;
-      }
+                  .flex-item .title {
+                    font-size: 17px;
+                    padding-top: -5%;
+                  }
 
-      .flex-item .additionalNotes {
-        font-size: 15px;
-      }
+                  .flex-item .additionalNotes {
+                    font-size: 15px;
+                    margin-bottom: 3%;
+                  }
 
-      {
-        font-size: 15px;
-      }
+                  .answer-question {
+                    margin-left: 83%;
+                    margin-top: -2.5%;
+                  }
+
+                  .answer-question button {
+                    color: #eb5b30;
+                    margin-top: 5%;
+                  }
+
+                  .flex-item .editQuestion {
+                    float: none;
+                    margin-left: 17%;
+                  }
+
+                  .flex-item .deleteQuestion {
+                    float: left;
+                  }

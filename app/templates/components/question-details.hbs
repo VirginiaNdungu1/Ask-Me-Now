@@ -1,1 +1,29 @@
-{{yield}}
+<div class="flex-container">
+  <div class="flex-item">
+    <div class="question-detail">
+      <div class="author">
+        <p>{{question.author}}</p>
+      </div>
+      <div class="topic">
+        {{question.topic}}
+      </div>
+      <div class="answer-question">
+        <button class="btn btn-lg">ANSWER</button>
+      </div>
+      <div class="title">
+        <p>{{question.title}}</p>
+      </div>
+      <div class="additionalNotes">
+        <p>{{question.additionalNotes}}</p>
+      </div>
+      <div>
+        <div class="deleteQuestion">
+          <button type="button" name="button">Delete Question</button>
+        </div>
+        <div class="editQuestion">
+          <button type="button" name="button">Edit Question</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

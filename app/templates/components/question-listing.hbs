@@ -1,19 +1,24 @@
 <div class="flex-container">
   <div class="flex-item">
     <div class="questionDetails">
+      {{#link-to 'view-question' question.id}}
+        <p class="title">{{question.title}}</p>
+      {{/link-to}}
       <div class="author">
-        <p>{{question.author}}</p>
-      </div>
-      <div class="topic">
-        <p>{{question.topic}}</p>
+        {{#link-to 'view-question' question.id}}
+          <p>By {{question.author}}</p>
+        {{/link-to}}
       </div>
     </div>
-    <p class="title">{{question.title}}</p>
+
     {{#if isNoteShowing}}
-      <p class="additionalNotes">{{question.additionalNotes}}</p>
-      <button{{action "hideNote"}}>Show Less</button>
-      {{else}}
-      <button{{action "showNote"}}>Show More</button>
-      {{/if}}
-     </div>
+      <div>
+        <p>{{question.topic}}</p>
+        <p class="additionaslNotes">{{question.additionalNotes}}</p>
+      </div>
+      <button {{action "hideNote"}}>Show Less</button>
+    {{else}}
+      <button {{action "showNote"}}>Show More</button>
+    {{/if}}
+  </div>
 </div>
