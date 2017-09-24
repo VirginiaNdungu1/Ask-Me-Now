@@ -20,10 +20,13 @@
         <div class="deleteQuestion">
           <button type="button" name="button" {{action 'delete' question}}>Delete Question</button>
         </div>
-        <div class="editQuestion">
-          <button type="button" name="button">Edit Question</button>
-        </div>
+
+
+
       </div>
+    </div>
+    <div class="editQuestion">
+    {{update-question rental=rental update="update"}}
     </div>
   </div>
 </div>
