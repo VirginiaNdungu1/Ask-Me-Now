@@ -1,0 +1,24 @@
+<div class="container">
+<h1>Ask A Question</h1>
+<form>
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input value=author id="author" placeholder="Enter Author's Name" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="topic">Topic</label>
+    {{input value=topic id="topic" placeholder="Enter Question's topic" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="title">Title</label>
+    {{input value=title id="title" placeholder="Enter Question Here" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="additionalNotes">Additional Notes</label>
+    {{input value=additionalNotes id="additionalNotes" placeholder="Enter Additional Notes Here..." class="form-control"}}
+  </div>
+
+    <button {{action 'addQuestion'}} type="button" class="btn btn-lg"name="button">Submit</button>
+
+</form>
+</div>

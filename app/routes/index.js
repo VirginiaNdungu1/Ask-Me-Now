@@ -22,4 +22,5 @@ export default Ember.Route.extend({
     // return questions;
     return this.store.findAll('question');
   }
+
 });
