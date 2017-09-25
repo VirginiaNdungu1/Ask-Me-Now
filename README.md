@@ -39,7 +39,12 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+*npm install -g firebase-tools
+*firebase init
+*select hosting
+*choose dist
+*Do Not Overwrite
+*firebase deploy
 
 ## Further Reading / Useful Links
 
@@ -48,3 +53,5 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+  
+  ## MIT (c) 2017 [Virginia Ndung'u](https://github.com/VirginiaNdungu1/Ask-Me-Now)
