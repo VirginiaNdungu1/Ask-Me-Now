@@ -1,10 +1,13 @@
 <ul>
   {{!--loop through each rental in model--}}
   {{!--rental represents model object --}}
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
   {{!--render our new component rental-tile--}}
   {{!--rental on left is a variable of the component--}}
   {{!--rental on right refers to the model object in the current iteration of loop--}}
     {{question-listing question=question}}
   {{/each}}
+  <hr>
 </ul>
+
+<hr>

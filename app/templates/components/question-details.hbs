@@ -7,9 +7,6 @@
       <div class="topic">
         {{question.topic}}
       </div>
-      <div class="answer-question">
-        {{new-answer answer=answer answer="answer" }}
-      </div>
       <div class="title">
         <p>{{question.title}}</p>
       </div>
@@ -25,5 +22,11 @@
     <div class="editQuestion">
     {{update-question question=question update="update"}}
     </div>
+    <h2>Answer</h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
   </div>
 </div>

@@ -9,7 +9,7 @@ export default Ember.Component.extend({
     discardChanges() {
       this.set("isEditQuestion", false);
     },
-    update(question, params) {
+    update(question) {
       var params = {
         topic: this.get('topic'),
         title: this.get('title'),

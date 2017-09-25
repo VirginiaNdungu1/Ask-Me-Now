@@ -1,17 +1,25 @@
-{"questions":[{
-  "topic": "Technology",
-  "title": "What does asynchronous loading of data mean?",
-  "author": "Nish Bernard",
-  "additionalNotes": "In relation to controllers in ember"
-}, {
-  "topic": "Technology",
-  "title": "What problem does the concept of routable components solve?",
-  "author": "Nish Bernard",
-  "additionalNotes": "In relation to controllers in ember"
-}, {
-  "topic": "Technology",
-  "title": "What are transpilers? ",
-  "author": "Nish Bernard",
-  "additionalNotes": "Please give examples and their importance"
-}],
+{
+  "questions": [{
+    "topic": "Technology",
+    "title": "What does asynchronous loading of data mean?",
+    "author": "Nish Bernard",
+    "additionalNotes": "In relation to controllers in ember"
+  }, {
+    "topic": "Technology",
+    "title": "What problem does the concept of routable components solve?",
+    "author": "Nish Bernard",
+    "additionalNotes": "In relation to controllers in ember"
+  }, {
+    "topic": "Technology",
+    "title": "What are transpilers? ",
+    "author": "Nish Bernard",
+    "additionalNotes": "Please give examples and their importance"
+  }],
+  "answers": [{
+    "author": "Nathan",
+    "content": "Did not fall down."
+  }, {
+    "author": "Apiut",
+    "content": "Nice view of the volcano!"
+  }]
 }

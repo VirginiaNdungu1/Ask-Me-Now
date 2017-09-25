@@ -20,6 +20,9 @@ export default Ember.Route.extend({
   //add a model hook
   model() {
     // return questions;
-    return this.store.findAll('question');
-  }
+    return Ember.RSVP.hash({
+      questions: this.store.findAll('question'),
+      answers: this.store.findAll('answer')
+    });
+  },
 });
