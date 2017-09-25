@@ -1,0 +1,29 @@
+[debug] [2017-09-25T06:06:50.431Z] ----------------------------------------------------------------------
+[debug] [2017-09-25T06:06:50.433Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2017-09-25T06:06:50.434Z] CLI Version:   3.12.0
+[debug] [2017-09-25T06:06:50.434Z] Platform:      linux
+[debug] [2017-09-25T06:06:50.434Z] Node Version:  v8.5.0
+[debug] [2017-09-25T06:06:50.434Z] Time:          Mon Sep 25 2017 09:06:50 GMT+0300 (EAT)
+[debug] [2017-09-25T06:06:50.434Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-25T06:06:50.443Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-25T06:06:50.443Z] > authorizing via signed-in user
+[debug] [2017-09-25T06:06:50.445Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ask-me-now-bac9a  
+ Mon Sep 25 2017 09:06:50 GMT+0300 (EAT)
+[debug] [2017-09-25T06:06:52.520Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-25T06:06:52.525Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ask-me-now-bac9a/tokens  
+ Mon Sep 25 2017 09:06:52 GMT+0300 (EAT)
+[debug] [2017-09-25T06:06:54.746Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'ask-me-now-bac9a'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing app directory for upload...
+[debug] [2017-09-25T06:06:59.342Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/ask-me-now-bac9a/uploads/-KurdKEBh3ZPMFywkARu?fileCount=27&message=  
+ Mon Sep 25 2017 09:06:59 GMT+0300 (EAT)
+[debug] [2017-09-25T06:07:20.679Z] Error: getaddrinfo EAI_AGAIN deploy.firebase.com:443
+    at Object._errnoException (util.js:1026:11)
+    at errnoException (dns.js:58:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:95:26)
+[error] 
+[error] Error: Server Error. getaddrinfo EAI_AGAIN deploy.firebase.com:443
