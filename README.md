@@ -1,7 +1,6 @@
 # ask-me-now
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A web application that allows users to ask questions as well as make contributions towards the same.
 
 ## Prerequisites
 
@@ -53,5 +52,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+  
   
   ## MIT (c) 2017 [Virginia Ndung'u](https://github.com/VirginiaNdungu1/Ask-Me-Now)
