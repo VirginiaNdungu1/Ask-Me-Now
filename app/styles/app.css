@@ -101,4 +101,14 @@
                         font-size: 15px;
                         color: teal;
                         margin-left: 10%;
+                        margin-bottom: 3%;
+                        margin-top: 3.5%;
+                      }
+
+                      .flex-item .answer-author .edit-answer {
+                        margin-left: 60%;
+                      }
+
+                      .flex-item .answer-author .delete-answer {
+                        margin-left: 5%;
                       }
