@@ -3,10 +3,11 @@
     <div class="flex-item">
       <div class="answer-author">
        {{answer.author}}
-        <button class="edit-answer"type="button" name="button">Edit Answer</button>
-        <button class="delete-answer" type="button" name="button">Delete Answer</button>
+       <div class="editQuestion">
+       {{edit-answer answer=answer editAnswer="editAnswer"}}
+       </div>
+        <button class="delete-answer" {{action 'deleteAnswer'}} type="button" name="button">Delete Answer</button>
       </div>
-
       <div class="answer-content">
         <textarea name="name" rows="8" cols="80">{{answer.content}}</textarea>
       </div>
