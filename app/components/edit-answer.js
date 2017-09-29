@@ -14,7 +14,7 @@ export default Ember.Component.extend({
       };
       this.set('author', ''),
         this.set('content', ''),
-        this.set("isEditAnswer", true);
+        this.set("isEditAnswer", false);
       this.sendAction("editAnswer", answer, params);
     }
   }

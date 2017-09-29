@@ -9,6 +9,10 @@ export default Ember.Component.extend({
     editAnswer(answer, params) {
       this.sendAction('editAnswer', answer, params);
     },
-
+    deleteAnswer(answer) {
+      if (confirm("Are you sure you want to discard this answer?")) {
+        this.sendAction('removeAnswer', answer);
+      }
+    },
   }
 });
