@@ -1,0 +1,16 @@
+<div class="all-answer">
+  <div class="flex-container">
+    <div class="flex-item">
+      <div class="answer-author">
+      {{answer.author}}
+      <div class="updateAnswer">
+         {{edit-answer answer=answer editAnswer="editAnswer"}}
+      </div>
+      <button class="delete-answer" {{action 'deleteAnswer'}} type="button" name="button">Delete Answer</button>
+      </div>
+      <div class="answer-content">
+{{answer.content}}
+      </div>
+    </div>
+  </div>
+</div>

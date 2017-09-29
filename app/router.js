@@ -12,6 +12,9 @@ Router.map(function() {
     path: '/view-question/:question_id'
   });
   this.route('view-questions');
+  this.route('view-answer', {
+    path: '/view-answer/:answer_id'
+  });
 });
 
 export default Router;
