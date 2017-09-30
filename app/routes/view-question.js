@@ -26,6 +26,6 @@ export default Ember.Route.extend({
         return question.save();
       });
       this.transitionTo('view-question', question);
-    }
+    },
   }
 });
