@@ -2,7 +2,10 @@
   <div class="flex-container">
     <div class="flex-item">
       <div class="answer-author">
-      {{answer.author}}
+      Author: {{answer.author}}
+      <div>
+          Upvotes: {{answer.upvotes}}
+      </div>
       <div class="updateAnswer">
          {{edit-answer answer=answer editAnswer="editAnswer"}}
       </div>

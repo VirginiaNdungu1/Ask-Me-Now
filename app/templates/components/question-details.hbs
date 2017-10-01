@@ -24,9 +24,9 @@
     </div>
     <h2>Answer</h2>
 <ul>
-  {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
-  {{/each}}
+  {{#each sortedAnswers as |answer|}}
+    {{answer-tile answer=answer isUpVote="isUpVote" isDownVote="isDownVote"}}
+{{/each}}
 </ul>
   </div>
 </div>

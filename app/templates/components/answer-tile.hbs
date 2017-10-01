@@ -3,6 +3,13 @@
     <div class="flex-item">
       <div class="answer-author">
         {{#link-to 'view-answer' answer.id}}{{answer.author}}{{/link-to}}
+        <a href="#" class="btnVote btn btn-info btn-lg" {{action 'isUpVote' answer}}>
+  <span class="glyphicon glyphicon-thumbs-up"></span> Like
+</a>
+{{answer.upvotes}}
+  <a href="#" class="btn btn-info btn-lg" {{action 'isDownVote' answer}}>
+  <span class="glyphicon glyphicon-thumbs-down"></span> Unlike
+  </a>
       </div>
       <div class="answer-content">
         <!-- <div class="panel panel-default">
