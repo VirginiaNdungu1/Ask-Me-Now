@@ -7,25 +7,31 @@
       <div class="topic">
         {{question.topic}}
       </div>
+      <div class="rateQuestion">
+          {{question-popularity question}}
+      </div>
       <div class="title">
         <p>{{question.title}}</p>
       </div>
+
       <div class="additionalNotes">
         <p>{{question.additionalNotes}}</p>
       </div>
-      <div>
+      <div class="allQuestionDetails">
+
         <div class="deleteQuestion">
           <button type="button" name="button" {{action 'delete' question}}>Delete Question</button>
         </div>
-      </div>
+        <div class="editQuestion">
+        {{update-question question=question update="update"}}
+        </div>
     </div>
-    <div class="editQuestion">
-    {{update-question question=question update="update"}}
-    </div>
+</div>
+
     <h2>Answer</h2>
 <ul>
   {{#each sortedAnswers as |answer|}}
-    {{answer-tile answer=answer isUpVote="isUpVote" isDownVote="isDownVote"}}
+   {{favorite-answer answer}} {{answer-tile answer=answer isUpVote="isUpVote" isDownVote="isDownVote"}}
 {{/each}}
 </ul>
   </div>
