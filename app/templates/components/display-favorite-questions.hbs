@@ -1,0 +1,17 @@
+<div class="flex-container">
+  <div class="flex-item">
+  <h2>Favorite Questions</h2>
+  <hr>
+    {{#each favoriteQuestions.items as |item|}}
+      <div>
+      <p class="favAuthor">{{item.author}}</p>
+    </div>
+      <br>
+      <div>
+        <p class="favTitle">{{item.title}}</p>
+      </div>
+      <hr>
+    {{/each}}
+  </div>
+  <hr>
+</div>

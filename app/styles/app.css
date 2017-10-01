@@ -68,6 +68,11 @@
                       margin-top: -0.5%;
                     }
 
+                    .popularQuestions {
+                      margin-left: 80%;
+                      margin-top: -10%;
+                    }
+
                     .flex-item .additionalNotes {
                       font-size: 15px;
                       margin-bottom: 3%;
@@ -146,4 +151,27 @@
 
                     .btnVote {
                       margin-left: 60%;
+                    }
+
+                    .flex-item .favAuthor {
+                      font-size: 15px;
+                      color: teal;
+                      margin-left: 10%;
+                      margin-bottom: -1%;
+                      margin-top: 3.5%;
+                    }
+
+                    .flex-item .favTitle {
+                      margin-top: 0.5%;
+                      font-size: 20px;
+                      width: 45em;
+                      height: 5em;
+                      border: 1px solid #ddd;
+                      word-wrap: break-word;
+                      margin-bottom: 3%;
+                      overflow: auto;
+                      margin-left: 2%;
+                      margin-right: 2%;
+                      background-color: #ECF0F1;
+                      /*box-shadow: 1em 1em 1em 1em #ddd;*/
                     }

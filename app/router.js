@@ -15,6 +15,7 @@ Router.map(function() {
   this.route('view-answer', {
     path: '/view-answer/:answer_id'
   });
+  this.route('favorite-store');
 });
 
 export default Router;

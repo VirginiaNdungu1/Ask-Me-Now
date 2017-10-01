@@ -3,7 +3,7 @@
     <div class="flex-item">
       <div class="answer-author">
         {{#link-to 'view-answer' answer.id}}{{answer.author}}{{/link-to}}
-        
+
           {{favorite-answer answer}}
 
         <a href="#" class="btnVote btn btn-info btn-lg" {{action 'isUpVote' answer}}>
